@@ -1,0 +1,59 @@
+*::before, *::after {
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200vw;
+    height: 100vh
+    background-color hsl(44, 88%, 17%);
+  
+
+}
+
+.container {
+width: 800px;
+max-width: 80%
+background-color tan;
+padding: 10px;
+border-radius: 5px;
+box-shadow: -  10px 2px;
+
+
+
+}
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat (2, auto);
+    gap: 10px
+    margin-top 20px;
+
+
+
+}
+
+.btn {
+background-color: hsl(44, 88%, 17%);
+border: 1px solid hsl(45, 100%, 40%);
+border-radius:  5px;
+padding: 5px 10px;
+color: white;
+outline: none;
+
+
+
+
+
+
+}
+
+btn:hover{
+border-color: black;
+
+}
